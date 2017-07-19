@@ -103,7 +103,30 @@ body
   @extend .section
   background: $grey700
   color: $grey50
-  padding-bottom: 7%
+  padding-bottom: 4%
+
+  .text
+    font-size: 1.5rem
+    color: $grey50
+    margin: 0 0 0 0
+
+  .icons
+    margin: 5% 0 5% 0
+    a
+      margin: 0 5% 0 5%
+      &:hover
+        color: $grey50
+
+  .email
+    margin: 5% 0 5% 0
+    font-size: 2.5rem
+
+
+.form-box
+  background: $grey50
+  padding: 3% 8% 6% 8%
+  margin: 5% 0 0 0
+  width: 80%
 
 .submit-button
   font-family: $roboto
@@ -120,10 +143,28 @@ body
   align-items: center
   flex-flow: row wrap
 
+.flex-horizontal-center
+  display: flex
+  /* align horizontal
+  justify-content: center
+  flex-flow: row wrap
+
 .flex-center
   @extend .flex-vertical-center
   /* align horizontal
   justify-content: center
+
+.flex-right
+  display: flex
+  /* align horizontal
+  justify-content: flex-end
+  flex-flow: row wrap
+
+.flex-left
+  display: flex
+  /* align horizontal
+  justify-content: flex-start
+  flex-flow: row wrap
 
 .flex-no-wrap
   display: inline-flex
@@ -178,11 +219,6 @@ body
   opacity: 0
   &:hover
     opacity: 1
-
-.form-box
-  background: $grey50
-  padding: 20px 40px 60px 40px
-  margin-top: 5%
 
 .box
   position: relative

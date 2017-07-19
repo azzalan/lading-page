@@ -65,7 +65,26 @@ body {
 .contact {
   background: #424242;
   color: #FAFAFA;
-  padding-bottom: 7%; }
+  padding-bottom: 4%; }
+  .contact .text, .contact .text-light, .contact .text-porfolio {
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    margin: 0 0 0 0; }
+  .contact .icons {
+    margin: 5% 0 5% 0; }
+    .contact .icons a {
+      margin: 0 5% 0 5%; }
+      .contact .icons a:hover {
+        color: #FAFAFA; }
+  .contact .email {
+    margin: 5% 0 5% 0;
+    font-size: 2.5rem; }
+
+.form-box {
+  background: #FAFAFA;
+  padding: 3% 8% 6% 8%;
+  margin: 5% 0 0 0;
+  width: 80%; }
 
 .submit-button {
   font-family: "Roboto, sans-serif";
@@ -81,9 +100,27 @@ body {
   align-items: center;
   flex-flow: row wrap; }
 
+.flex-horizontal-center {
+  display: flex;
+  /* align horizontal */
+  justify-content: center;
+  flex-flow: row wrap; }
+
 .flex-center {
   /* align horizontal */
   justify-content: center; }
+
+.flex-right {
+  display: flex;
+  /* align horizontal */
+  justify-content: flex-end;
+  flex-flow: row wrap; }
+
+.flex-left {
+  display: flex;
+  /* align horizontal */
+  justify-content: flex-start;
+  flex-flow: row wrap; }
 
 .flex-no-wrap {
   display: inline-flex; }
@@ -136,11 +173,6 @@ body {
   opacity: 0; }
   .only-show-on-hover:hover {
     opacity: 1; }
-
-.form-box {
-  background: #FAFAFA;
-  padding: 20px 40px 60px 40px;
-  margin-top: 5%; }
 
 .box {
   position: relative;

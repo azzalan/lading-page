@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-// import RaisedButton from 'material-ui/RaisedButton'
 import FullScreen from 'material-ui/svg-icons/action/open-in-new'
 
 import SlideShow from './SlideShow'
