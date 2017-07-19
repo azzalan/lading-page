@@ -1,0 +1,188 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 10px; }
+
+.braincon {
+  background: url("./assets/images/BrainCon/index.jpg") no-repeat 0px 0px;
+  background-size: 100%;
+  background-position: center; }
+
+.capacita {
+  background: url("./assets/images/Capacita/index.jpg") no-repeat 0px 0px;
+  background-size: 100%;
+  background-position: center; }
+
+.prorim {
+  background: url("./assets/images/ProRim/index.jpg") no-repeat 0px 0px;
+  background-size: 100%;
+  background-position: center; }
+
+.section, .intro, .second, .third, .sub-third, .forth, .contact, .footer {
+  padding: 30px 0 30px 0; }
+
+.app-bar {
+  position: fixed;
+  top: 0;
+  opacity: 0.8; }
+
+.full-height {
+  height: 100vh; }
+
+.intro {
+  background: #212121;
+  color: #FAFAFA; }
+
+.second {
+  background: #FAFAFA;
+  color: #009688; }
+
+.third {
+  background: #009688;
+  color: #FAFAFA;
+  padding-bottom: 7%; }
+
+.sub-third {
+  background: #009688;
+  color: #FAFAFA;
+  padding: 0 0 0 0; }
+
+.forth {
+  background: #FAFAFA;
+  color: #009688; }
+
+.list {
+  font-size: 2.5rem;
+  color: #004D40;
+  margin: 0 10% 0 10%; }
+  .list ul {
+    padding: 0 0 0 0;
+    list-style-type: none; }
+    .list ul li {
+      margin-bottom: 10px; }
+
+.contact {
+  background: #424242;
+  color: #FAFAFA;
+  padding-bottom: 7%; }
+
+.submit-button {
+  font-family: "Roboto, sans-serif";
+  margin: 7% 0 0 0; }
+
+.footer {
+  background: #212121;
+  color: #FAFAFA; }
+
+.flex-vertical-center, .flex-center {
+  display: flex;
+  /* align vertical */
+  align-items: center;
+  flex-flow: row wrap; }
+
+.flex-center {
+  /* align horizontal */
+  justify-content: center; }
+
+.flex-no-wrap {
+  display: inline-flex; }
+
+.full-width {
+  width: 100%; }
+
+.center {
+  text-align: center;
+  align: center; }
+
+.main-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 20vw; }
+
+.lg-main-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 10vw; }
+
+.title {
+  font-family: "Amatic SC", cursive;
+  font-size: 10rem; }
+
+.sub-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 7rem; }
+
+.text, .text-light, .text-porfolio {
+  font-size: 1.5rem;
+  color: #004D40;
+  margin-bottom: 5%; }
+
+.text-light, .text-porfolio {
+  color: #FAFAFA; }
+
+.text-porfolio {
+  margin-bottom: 0; }
+
+.text-icon {
+  background: #FAFAFA;
+  color: #004D40;
+  padding: 20px 20px 20px 20px;
+  border-top: 1px solid #009688;
+  font-size: 1.5rem;
+  margin-bottom: 5%; }
+
+.only-show-on-hover {
+  width: 100%;
+  height: 550px;
+  opacity: 0; }
+  .only-show-on-hover:hover {
+    opacity: 1; }
+
+.form-box {
+  background: #FAFAFA;
+  padding: 20px 40px 60px 40px;
+  margin-top: 5%; }
+
+.box {
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  color: #004D40;
+  font-size: 1.5rem;
+  padding: 20px 20px 20px 20px; }
+  .box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+    background: #FAFAFA; }
+
+.porfolio1 {
+  background: url("./assets/images/BrainCon/index.jpg") no-repeat 0px 0px;
+  background-size: 100%;
+  background-position: center;
+  min-height: 50rem; }
+
+.porfolio2 {
+  background: url("./assets/images/Capacita/index.jpg") no-repeat 0px 0px;
+  background-size: 100%;
+  background-position: center;
+  min-height: 50rem; }
+
+.porfolio3 {
+  background: url("./assets/images/ProRim/index.jpg") no-repeat 0px 0px;
+  background-size: 100%;
+  background-position: center;
+  min-height: 50rem; }
+
+.summary {
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem; }
+
+.arrow-button:hover {
+  background: #004D40; }
+
+/*# sourceMappingURL=index.css.map */
